@@ -1,0 +1,20 @@
+
+#star-six {
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 200px solid red;
+    position: relative;
+  }
+  #star-six:after {
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-top: 200px solid red;
+    position: absolute;
+    content: "";
+    top: 60px;
+    left: -100px;
+  }

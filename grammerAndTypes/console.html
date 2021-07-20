@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Console Notes</title>
+</head>
+<body>
+    <h1>The Console</h1>
+    <!-- ul>li*4 -->
+    <ul>
+        <li>Humans make Errors. Gasp! </li>
+        <li>The browser is home of the console. </li>
+        <li>The console Object </li>
+        <!-- ul>li*5 -->
+       <ul>
+           <li>Console.log()</li>
+           <li>console.warn()</li>
+           <li>console.error()</li>
+           <li>and many more</li>
+           <li>console.table()</li>
+       </ul>
+        <li>the console is ONLY used for debugging </li>
+    </ul>
+    
+    <script>
+        console.log('this message is a string');
+        let name = 'Phoenix';
+        //'log: *****'', to label when debugging
+        console.log('log: ', name);
+            //warnings are not errors, 
+        console.warn('This is a warning');
+        let warning = 'uh oh...';
+        console.warn('Warn:', warning);
+
+        console.error('This is an error message');
+        let err = 'This is looking real bad';
+        console.error('Error:', err);
+            // puts the arr in the form of a table, can use array with arrays inside it to do different colums
+        let arr = [1,2,3,4,5,6];
+        console.table(arr);
+    </script>
+</body>
+</html>

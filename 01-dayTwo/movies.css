@@ -1,0 +1,12 @@
+table {
+    border: solid 1px black;
+    background-color: lightskyblue;
+}
+
+.title {
+    font-style: italic;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
