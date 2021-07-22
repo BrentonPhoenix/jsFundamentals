@@ -2,7 +2,7 @@
     DATA and STRUCTURE TYPES
 
     -Primitive Data Types;
-        -boolean
+        -boolean (boo-le-an)
         -undefined
         -string
         -number
