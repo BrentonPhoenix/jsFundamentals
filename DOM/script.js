@@ -67,12 +67,50 @@ console.log(document.getElementById('spanTest').innerHTML );
 //3   addEventListener()
 //event anything that happens on the page, buttons interact with the click 
 //callback function is a function that is being called in the parameters of another function
+
+
+//Move the button into a variable, and d when you click the button it will turn, blue, or if it already blue it will turn red
+
+let r2B = document.getElementById('clickThis')
+
+r2B.addEventListener('click', ev =>{
+  
+  //  ev.target.style.backgroundColor = "blue";
+    console.log(ev.target.style.backgroundColor)
+    if(ev.target.style.backgroundColor == "blue"){
+      ev.target.style.backgroundColor = 'red';
+    } else {
+      ev.target.style.backgroundColor = 'blue';
+    }
+  })
+
+
+
+
+//    ev.target.style.backgroundColor = '001FFF'
+//    if(event.target.style.backgroundColor = '#001FFF'){
+//      event.target.style.backgroundColor = '#FF0000'
+//    } else {console.log(event.target)
+//      event.target.style.backgroundColor = '#001FFF';
+//  }
+//  ))
+//CALLBACK IS WHEN WE PASS A FUNCTION INTO THE PARAMETERS OF ANOTHER FUNCTION
+
+
+
+
+// 1. move the button into a variable
+// 2. click it, and it will turn blue
+// 3. if it is blue
+
+
+/*
 document.getElementById('clickThis').addEventListener('click', function(event) {
    // console.log(event);
     console.log(event.target)
     event.target.style.backgroundColor = "#001FFF"
 })
-
+*/
 
 let input = document.getElementById('nameInput')
 
