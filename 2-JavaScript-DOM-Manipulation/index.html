@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <p id="testParagraph">
+        Cupcake ipsum dolor sit amet sweet caramels I love. Chocolate bar ice cream wafer cotton candy I love ice cream candy canes muffin I love. Bonbon soufflé gummies lollipop I love cake muffin lollipop donut. Sweet roll caramels dragée ice cream I love bonbon croissant.
+    </p>
+
+    <p class="sampleClass">This paragraph has a class of sampleClass</p>
+
+    <h1>Hello World</h1>
+    <button id="clickThisButton">CLICK HERE</button>
+
+
+    <script type="text/javascript">
+    var x = 10;
+    console.log(x);
+        document.getElementById('testParagraph').style.color = '#00E7FF' 
+
+        console.log(document.getElementById('testParagraph').style.color = '#00E7FF')
+
+        console.log(document.querySelectorAll("p.sampleClass"))
+
+        document.querySelectorAll('p.sampleClass')[0].innerHTML = '<span>I am a whole new element!</span>';
+
+        document.getElementById('clickThisButton').addEventListener('click', (details) => {
+            details.target.style.backgroundColor = '#BA0000'
+        });
+    </script>
+</body>
+</html>

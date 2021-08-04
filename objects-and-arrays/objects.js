@@ -137,7 +137,7 @@ console.log(Object.values(spaceJam.toonSquad))//just the values of each key in a
 
 
 
-    let garden = {
+    let garden2 = {
         vegetable: 'Zucchini',
         flower: 'Orchid',
         Fruit: 'kiwi',
@@ -145,7 +145,7 @@ console.log(Object.values(spaceJam.toonSquad))//just the values of each key in a
         sun: true,
         size: 10
     }
-console.log(baking[garden['vegetable']]);
+console.log(baking[garden2['vegetable']]);
 
 //using square brackets can also be a good idea if the object's key has a space in the name.
 let testObj = {

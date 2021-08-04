@@ -106,12 +106,12 @@ colorList.forEach(
 //let something = (color) => {
 //
 //}
-let colorList = ['magenta', 'midnight blue', 'mahogany', 'pthaleo green', 'fuscia', 'orange', 'periwinkle', 'ocre'];
+//let colorList = ['magenta', 'midnight blue', 'mahogany', 'pthaleo green', 'fuscia', 'orange', 'periwinkle', 'ocre'];
 
 let logItem = item => console.log(item)
 colorList.forEach(logItem);
 
-let colorList = ['magenta', 'midnight blue', 'mahogany', 'pthaleo green', 'fuscia', 'orange', 'periwinkle', 'ocre'];
+//let colorList = ['magenta', 'midnight blue', 'mahogany', 'pthaleo green', 'fuscia', 'orange', 'periwinkle', 'ocre'];
 colorList.forEach((item,index) => {
     console.log(item);
     console.log(index);
